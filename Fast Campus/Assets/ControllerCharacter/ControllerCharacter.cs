@@ -22,6 +22,7 @@ public class ControllerCharacter : MonoBehaviour
 
     private Vector3 calcVelocity;
 
+
     #endregion
 
     // Start is called before the first frame update

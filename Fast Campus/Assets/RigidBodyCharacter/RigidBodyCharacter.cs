@@ -23,6 +23,7 @@ public class RigidBodyCharacter : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        PlayerManager.instance.playerHp++;
     }
 
     // Update is called once per frame
